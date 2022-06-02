@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url('../img/page.png') ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.login{
+    width: 380px;
+    height: 380px;
+    padding: 30px;
+    box-shadow: 0 1px 1px rgb(122, 118, 115)inset, 0 0 5px rgba(156, 156, 154, 0.6);
+    border: none;
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+    margin-top:50px;
+    
+
+}
+
+.form>input{
+    display:block;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0.5px solid gray;
+    margin: 10px auto 10px auto;
+    height: 45px;
+
+}
+
+#mail, #password{
+    width: 90%;
+}
+#mail:focus, #password:focus{
+    /* border-color:  rgb(79, 79, 219); */
+    outline: 0 none;
+    border-color: rgb(65, 76, 238);
+    box-shadow: 0 1px 1px rgb(83, 82, 177)inset, 0 0 1px rgb(83, 82, 177);
+
+
+}
+
+#send{
+    background-color:#1877f2;
+    width: 90%;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+#new{
+    width: 50%;
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    border: none;
+    background-color: #42b72a;
+}
+
+
+
+.forgot{
+    width: 60%;
+    margin: auto;
+    margin: 20px auto;
+    font-size: 16px;
+    color:rgb(83, 82, 177)
+
+}
+hr{
+    margin: 20px auto;
+}
+.img{
+    height: 100vh;
+    margin: auto;    
+}
